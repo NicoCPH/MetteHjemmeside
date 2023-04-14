@@ -1,4 +1,6 @@
+import { basename } from "path";
 import { FunctionComponent, useCallback } from "react";
+import { Link, redirect } from "react-router-dom";
 
 const Forside: FunctionComponent = () => {
   const onLoginTextClick = useCallback(() => {
@@ -10,7 +12,7 @@ const Forside: FunctionComponent = () => {
   }, []);
 
   const onKontaktOsTextClick = useCallback(() => {
-    // Please sync "Login" to the project
+
   }, []);
 
   return (
@@ -88,15 +90,13 @@ const Forside: FunctionComponent = () => {
         <div className="absolute top-[19px] left-[1272px] w-[351px] h-[53px]">
           <b
             className="absolute top-[0px] left-[0px] tracking-[-0.02em] inline-block w-[159px] h-[51px] cursor-pointer"
-            onClick={onMinBaggrundTextClick}
           >
-            Min baggrund
+          <Link className="max-w-sm p-1 no-underline text-black" to="/">Min baggrund</Link>
           </b>
           <b
             className="absolute top-[2px] left-[192px] tracking-[-0.02em] inline-block w-[159px] h-[51px] cursor-pointer"
-            onClick={onKontaktOsTextClick}
           >
-            Kontakt os
+            <Link className="max-w-sm p-1 no-underline text-black" to="/kontakt">Kontakt os</Link>
           </b>
         </div>
       </div>
