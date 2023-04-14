@@ -28,7 +28,7 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/forside":
+      case "/":
         title = "";
         metaDescription = "";
         break;
@@ -50,8 +50,8 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<KontaktOs />} />
-      <Route path="/forside" element={<Forside />} />
+      <Route path="/" element={<Forside />} />
+      <Route path="/kontakt" element={<KontaktOs />} />
     </Routes>
   );
 }

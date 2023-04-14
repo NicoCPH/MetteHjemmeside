@@ -102,7 +102,7 @@ const KontaktOs: FunctionComponent = () => {
         <div className="absolute top-[0px] left-[0px] bg-gainsboro-200 w-[710.99px] h-[317px]" />
         <b className="absolute top-[64px] left-[77px] tracking-[-0.02em] inline-block w-[630px] h-[164px]">
           <p className="m-0">
-            Kontakt info: 
+            Kontakt info:
             <a
               className="text-[inherit]"
               href="mailto:kontakt@second-opinion.nu"
