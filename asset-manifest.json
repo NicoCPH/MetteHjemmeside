@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mette/static/css/main.6411f20f.css",
+    "main.js": "/mette/static/js/main.0299c0dc.js",
+    "static/js/787.68b335fd.chunk.js": "/mette/static/js/787.68b335fd.chunk.js",
+    "index.html": "/mette/index.html",
+    "main.6411f20f.css.map": "/mette/static/css/main.6411f20f.css.map",
+    "main.0299c0dc.js.map": "/mette/static/js/main.0299c0dc.js.map",
+    "787.68b335fd.chunk.js.map": "/mette/static/js/787.68b335fd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6411f20f.css",
+    "static/js/main.0299c0dc.js"
+  ]
+}
