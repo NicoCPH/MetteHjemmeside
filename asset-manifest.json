@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/mette/static/css/main.a52128ba.css",
-    "main.js": "/mette/static/js/main.2289be35.js",
-    "static/js/787.68b335fd.chunk.js": "/mette/static/js/787.68b335fd.chunk.js",
-    "index.html": "/mette/index.html",
-    "main.a52128ba.css.map": "/mette/static/css/main.a52128ba.css.map",
-    "main.2289be35.js.map": "/mette/static/js/main.2289be35.js.map",
-    "787.68b335fd.chunk.js.map": "/mette/static/js/787.68b335fd.chunk.js.map"
+    "main.css": "/MetteHjemmeside/static/css/main.a52128ba.css",
+    "main.js": "/MetteHjemmeside/static/js/main.d7c04371.js",
+    "static/js/787.68b335fd.chunk.js": "/MetteHjemmeside/static/js/787.68b335fd.chunk.js",
+    "index.html": "/MetteHjemmeside/index.html",
+    "main.a52128ba.css.map": "/MetteHjemmeside/static/css/main.a52128ba.css.map",
+    "main.d7c04371.js.map": "/MetteHjemmeside/static/js/main.d7c04371.js.map",
+    "787.68b335fd.chunk.js.map": "/MetteHjemmeside/static/js/787.68b335fd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a52128ba.css",
-    "static/js/main.2289be35.js"
+    "static/js/main.d7c04371.js"
   ]
 }
