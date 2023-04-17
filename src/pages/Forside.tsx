@@ -14,9 +14,9 @@ const Forside: FunctionComponent = () => {
           src="/image-6@2x.png"
         />
         <img
-          className="absolute top-[76px] max-md:top-[36px] left-[0px] w-full"
+          className="absolute top-[3.8vw] max-md:top-[36px] left-[0px] w-full"
           alt=""
-          src="/rectangle-51.svg"
+          src="./rectangle-51.svg"
         />
         <div className="absolute max-lg:top-[12vw] top-[8vw] left-[124px] text-gainsboro-100">
           <b className="left-[0px] max-w-6/12 text-[4vw] ">
@@ -30,18 +30,26 @@ const Forside: FunctionComponent = () => {
       </div>
       {/* _______ */}
 
+      <div className="relative w-8/12 my-0 mx-auto flex max-md:pb-2  max-md:pt-5 pt-3">
+        <b className="text-[1.25vw] max-md:text-[2vw]"><p>Second Opinion er for dig, der har brug for en ny vinkel på dit helbred. Som har mod på at tage medansvar for din sundhed - og modsat lade dine erfaringer komme andre til gode.
+
+          Vi lægger vægt på videnskabeligt funderede metoder og ny viden, samt naturlige, giftfrie og opbyggende midler. </p></b>
+
+      </div>
+
+
       {/* Section 1 */}
-      <div className="relative w-9/12 my-0 mx-auto flex pb-44 pt-16">
+      <div className="relative w-9/12 my-0 mx-auto flex pb-44 max-md:pb-16  max-md:pt-5 pt-12">
         <div>
           <h3 className="relative mb-1 max-md:text-[4vw]">
             Sunde celler giver en sund krop -
           </h3>
-          <b className="text-[20px] max-md:text-[2vw]">
+          <b className="text-[1.25vw] max-md:text-[2vw]">
             <p className="m-0 w-7/12">
               For kroppen består dybest set af billioner af celler. Desværre har
               cellerne en lang række udfordringer i dag, som kan give vidt
               forskellige symptomer og føre til en lang række skader.
-            </p> 
+            </p>
             <p className="m-0 w-7/12">
               Det kan være du oplever et skrantende helbred, der står i stampe -
               eller symptomer, der er svære at få hjælp til. Det kan også være du
@@ -50,45 +58,45 @@ const Forside: FunctionComponent = () => {
           </b>
         </div>
         <img
-          className="relative w-3/12  max-md:hidden self-center"
+          className="relative w-[13vw]  max-md:hidden self-center"
           alt=""
-          src="/vector1.svg"
+          src="./vector1.svg"
         />
       </div>
       {/* _________ */}
 
       {/* Section 2 */}
-      <div className="relative pb-44">
+      <div className="relative pb-44 max-md:pb-16">
 
-        <div className="relative flex bg-white">
-          <div className="relative" />
-          <div className="p-32 max-md:p-[4vw]">
-          <b className="text-[23px] max-md:text-[2vw]">
-            <p className="m-0">
-              Second Opinion er for dig, der har brug for en ny vinkel på dit
-              helbred. Som har mod på at tage medansvar for din sundhed - og
-              modsat lade dine erfaringer komme andre til gode.
-            </p>
-            <p className="m-0">
-              Vi lægger vægt på videnskabeligt funderede metoder og ny viden, samt
-              naturlige, giftfrie og opbyggende midler.
-            </p>
-          </b>
+        <div className="relative grid grid-cols-2 bg-white">
+          <div className="p-[10%] max-md:p-[4vw] ">
+            <b className="text-[1.25vw] max-md:text-[1.5vw]">
+              <p className="m-0">
+                Second Opinion er for dig, der har brug for en ny vinkel på dit
+                helbred. Som har mod på at tage medansvar for din sundhed - og
+                modsat lade dine erfaringer komme andre til gode.
+              </p>
+              <p className="m-0">
+                Vi lægger vægt på videnskabeligt funderede metoder og ny viden, samt
+                naturlige, giftfrie og opbyggende midler.
+              </p>
+            </b>
           </div>
-        <img
-            className="relative w-11/12 max-md:w-full"
+          <img
+            className="relative w-11/12 pl-[8.3%] object-center overflow-auto"
             alt=""
-            src="/olenasergienkoharrub7lfwgunsplash-1@2x.png"
+            src="./olenasergienkoharrub7lfwgunsplash-1@2x.png"
           />
+
         </div>
       </div>
 
-      <div className="relativ text-4xl max-md:text-[2vw] text-center">
-            Copyright © 2022 Mette Kenfelt
-          </div>
+
       {/* _______ */}
 
-
+      <div className="relative text-4xl max-md:text-[2vw] bottom-0 text-center">
+        Copyright © 2022 Mette Kenfelt
+      </div>
 
       {/* Footer */}
       {/* <div className="absolute top-[1897px] left-[260px] w-[1400px] h-[155px] text-6xl text-lightslategray font-atkinson-hyperlegible">
@@ -114,6 +122,7 @@ const Forside: FunctionComponent = () => {
 
 
     </div>
+
   );
 };
 
