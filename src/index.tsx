@@ -4,12 +4,25 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import "./global.css";
+import CookieConsent from "react-cookie-consent";
 
 const container = document.getElementById("root");
 const root = createRoot(container!);
 
 root.render(
   <BrowserRouter>
+      
+      <CookieConsent
+  location="bottom"
+  buttonText="Jeg forstår"
+  cookieName="myAwesomeCookieName2"
+  style={{ background: "#2B373B" }}
+  buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
+  overlay={true}
+>
+Denne hjemmeside bruger cookies for at forbedre brugeroplevelsen.
+ 
+</CookieConsent>
     <App />
   </BrowserRouter>
 );

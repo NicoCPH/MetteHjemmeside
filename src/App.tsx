@@ -8,6 +8,7 @@ import KontaktOs from "./pages/KontaktOs";
 import Forside from "./pages/Forside";
 import { useEffect } from "react";
 
+
 function App() {
   const action = useNavigationType();
   const location = useLocation();
@@ -49,6 +50,7 @@ function App() {
   }, [pathname]);
 
   return (
+
     <Routes>
       <Route path="/" element={<Forside />} />
       <Route path="/kontakt" element={<KontaktOs />} />

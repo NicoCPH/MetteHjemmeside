@@ -12,11 +12,11 @@ const KontaktOs: FunctionComponent = () => {
           src="./mehdimessrrouyduzeaa8w0unsplash-1@2x.png"
         />
         <img
-          className="absolute top-[3.8vw] max-md:top-[36px] left-[0px] w-full"
+          className="absolute top-[3.3vw] max-md:top-[36px] left-[0px] w-full"
           alt=""
           src="./rectangle-5.svg"
         />
-        <div className="absolute max-lg:top-[12vw] top-[8vw] left-[124px] text-gainsboro-100">
+        <div className="absolute max-lg:top-[12vw] top-[8vw] left-[7vw] text-gainsboro-100">
           <b className="left-[0px] max-w-6/12 text-[4vw] ">
             Kontakt os
           </b>
@@ -24,26 +24,25 @@ const KontaktOs: FunctionComponent = () => {
       </div>
       {/* Section 1 */}
       <div className="relative w-10/12 max-md:w-full my-0 mx-auto grid grid-cols-8 pb-44 pt-16 max-md:pt-5  max-md:pb-16  ">
-        <div className="max-md:ml-5 col-span-6">
-          <h3 className="max-md:text-[4vw]">Hjælp til dit helbred:
-            Individuel rådgivning, forskellige løsninger og erfaringsudveksling</h3>
-          <b className="text-[1.25vw] max-md:text-[2vw]">
+        <div className="max-md:ml-5 col-span-6 max-md:col-span-5">
+          <h3 className="text-[2vw] max-md:text-[3vw]">Hjælp til dit helbred: <p className="m-0 text-[1.5vw] max-md:text-[2.5vw]">
+          Individuel rådgivning, forskellige løsninger og erfaringsudveksling
+          </p>
+            </h3>
+          <span className="text-[1vw] max-md:text-[3vw]">
             <p className="m-0 w-10/12">
-              Vi er en gruppe af sundhedsfaglige, behandlere og eksperter, som søger
-              at finde løsninger og dele dem, så vi på sigt kan forebygge, at skaderne
-              udvikler sig til kroniske tilstande.
+              Vi er en gruppe af sundhedsfaglige, behandlere og eksperter, som søger at finde løsninger og dele dem, så vi på sigt kan forebygge,
+               at skaderne udvikler sig til kroniske tilstande.
             </p>
-            <p className="m-0 w-10/12">
-              Den første, du møder, er Mette Kenfelt - som står for en indledende
-              snak. Herefter arbejder vi videre med konkrete tiltag og
-              behandlingsmuligheder. Du skal ikke regne med et hurtigt fix af kroppen
-              - men i stedet give din celler og krop tid og chance for at blive bygget
-              op igen.
+            <p className="mt-4 w-10/12">
+              Den første, du møder, er Mette Kenfelt - som står for en indledende snak.
+               Herefter arbejder vi videre med konkrete tiltag og behandlingsmuligheder.
+                Du skal ikke regne med et hurtigt fix af kroppen - men i stedet give dine celler og krop tid og chance for at blive bygget op igen.
             </p>
-          </b>
+          </span>
         </div>
         <img
-          className="relative max-md:w-full w-10/12 self-center max-md:mr-5 col-span-2"
+          className="relative max-md:w-full w-10/12 self-center max-md:mr-5 col-span-3"
           alt=""
           src="./image-1@2x.png"
         />
@@ -51,16 +50,16 @@ const KontaktOs: FunctionComponent = () => {
 
 
       <div className="max-md:w-10/12 w-8/12 mx-auto my-0">
-        <h3 className=" max-md:text-[4vw]">Kontakt os gerne, hvis du ønsker mere information om Second Opinion</h3>
-        <div className="bg-gray-400 w-4/12">
-          <p className="m-0  max-md:text-[2vw]">
+        <h3 className=" max-md:text-[3vw]">Kontakt os gerne, hvis du ønsker mere information om Second Opinion</h3>
+        <div className=" w-4/12">
+          <p className="m-0  max-md:text-[3vw]">
             Kontakt info:
             <p className="m-0">
 
               <a
-              href = "mailto: kontakt@second-opinion.nu"
-              target="_blank"
-                className="text-[1.25vw]  max-md:text-[2vw] text-black"
+                href="mailto: kontakt@second-opinion.nu"
+                target="_blank"
+                className="text-[1.25vw]  max-md:text-[3vw] text-black"
               >
                 <span className="no-underline">
                   kontakt@second-opinion.nu
